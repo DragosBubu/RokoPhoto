@@ -413,7 +413,7 @@ opacity: .9;
 }
 .carousel-control.right,
 .carousel-control.left {
-    top: 47%;
+    top: 42%;
     background-image: none;
 }
 
@@ -1432,4 +1432,12 @@ section#contact .text-danger { color: #fec503 }
 }
 #footer-nav a {
 	color: #ffffff;
+}
+@media screen and (min-width: 1500px)  {
+	.carousel-control.right,
+	.carousel-control.left {
+    top: 39%;
+  
+}
+
 }
